@@ -1,4 +1,4 @@
-# Patterns 🔍
+# Patterns 🔎
 # Codédex
 
 import re
@@ -37,14 +37,14 @@ glass slipper on the steps.
 def tokenize(text):
   return re.findall(r'\w+|[^\w\s]', text)
 
-def get_bigrams(words):
+def get_bigrams(tokens):
   result = []
-  for i in range(len(words) - 1):
-    pair = words[i] + ' ' + words[i + 1]
+  for i in range(len(tokens) - 1):
+    pair = tokens[i] + ' ' + tokens[i + 1]
     result.append(pair)
   return result
 
-words = tokenize(cinderella.lower())
-bigrams = get_bigrams(words)
+tokens = tokenize(cinderella.lower())
+bigrams = get_bigrams(tokens)
 
 print('First 20 bigrams:', bigrams[:20])
