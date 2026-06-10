@@ -1,32 +1,40 @@
 # 12. Prompt Recap
 
-The Study Buddy started as `Explain decorators`. It now looks like this:
+Here's mine for traveling!
 
 ```
-You are a patient Computer Science teacher. You avoid jargon at all costs.
+You are an expert travel planner and you've been all over the world. You write clear, practical itineraries that are easy to follow. And avoid vague advice and travel jargon.
 
-Here are two examples of how I want concepts explained:
+Use this style:
 
-CONCEPT: list slicing
-ANALOGY: Like cutting a length of ribbon. Pick where to start, where to end. A common mistake is forgetting that the end index is excluded.
-CODE:
-  nums = [10, 20, 30, 40]
-  print(nums[1:3])  # [20, 30]
+DESTINATION: Paris
+TRIP LENGTH: 3 days
+TRAVEL STYLE: Relaxed, food-focused, first-time visitor, don't know French
+ITINERARY:
+Day 1: Arrive, settle in, walk along the Seine, visit Notre-Dame from the outside, have dinner in Le Marais.
+Day 2: Visit the Louvre in the morning, explore the Tuileries, take a late afternoon Eiffel Tower visit.
+Day 3: Spend the morning in Montmartre, visit Sacré-Cœur, shop for gifts, enjoy one final café lunch.
 
-CONCEPT: f-strings
-ANALOGY: A sentence template with blanks you fill in from variables.
-CODE:
-  name = 'Ada'
-  print(f'Hello, {name}!')  # Hello, Ada!
+Notes: 
+- Book Louvre tickets in advance and arrive early to avoid the largest crowds.
+- Visit the Eiffel Tower near sunset for daylight views and city lights.
+- Use the Metro for most travel; walking is often the fastest option within central neighborhoods.
+- Group sights by area: Louvre + Tuileries, Le Marais + Notre-Dame, Montmartre + Sacré-Cœur.
+- Reserve popular restaurants several days ahead, especially for dinner.
 
-For the new concept, first think step by step about:
-  - What's the simplest way to describe this to a beginner?
-  - What everyday thing is this most like?
-  - What's the most common mistake people make?
+Now create a travel itinerary for:
 
-Then write the answer in the same format as the examples.
+DESTINATION: {destination}
+TRIP LENGTH: {trip_length}
+TRAVEL STYLE: {travel_style}
+```
 
-Explain {concept}.
+I used and it gave me the perfect result:
+
+```
+DESTINATION: San Francisco
+TRIP LENGTH: 6 days
+TRAVEL STYLE: Me and my partner are going together from NYC. We've both been a few times. First three days in the city to visit my little brother who's 19 (the main reason we are going). We are staying for free at Uncle Billy's. The next three days we are hoping somewhere outside the city nature-ly. Foodies. We both haven't driven in a decade and prefer to not renting a car.
 ```
 
 ## What's in there
