@@ -1,4 +1,4 @@
-# 19. The Confident Wrong Answer
+# 18. The Confident Wrong Answer
 
 LLMs generate plausible-sounding text whether or not the underlying claim is true, and they use the same confident voice for both. The three prompts below are designed to draw that confidence out on questions that have no real answer.
 

@@ -1,4 +1,4 @@
-# 22. Bias in the Mirror
+# 21. Bias in the Mirror
 
 Lumi learned to write from a very large slice of the internet, and whatever defaults sit inside that text quietly become its defaults too. The exercise here is to notice a few of them.
 

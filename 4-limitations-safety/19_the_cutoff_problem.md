@@ -1,4 +1,4 @@
-# 20. The Cutoff Problem
+# 19. The Cutoff Problem
 
 Lumi's view of the world ends at whatever date its training data was collected, and it has no way to access anything written after that. These three prompts ask about things on or past that line.
 

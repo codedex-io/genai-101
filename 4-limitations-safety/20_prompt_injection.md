@@ -1,4 +1,4 @@
-# 21. Prompt Injection
+# 20. Prompt Injection
 
 The model reads one big blob of text and has no built-in way to tell which parts came from you and which came from whoever is using your app. You're going to play both sides of that gap: first as the developer who set up the prompt, then as the user who quietly hijacks it.
 

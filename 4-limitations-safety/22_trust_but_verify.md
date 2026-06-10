@@ -1,4 +1,4 @@
-# 23. Trust but Verify
+# 22. Trust but Verify
 
 AI-generated code tends to look correct on first read because the model is trained to produce code that's plausible and idiomatic. Whether it actually works on the inputs you'd hit in practice is a different question, and that's the gap this exercise is about.
 

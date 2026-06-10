@@ -1,4 +1,4 @@
-# 14. From Patterns to Meaning
+# 13. From Patterns to Meaning
 
 This one's chat-only. The point is to see Lumi do something that your bigram predictor from chapter 1 couldn't have done with any amount of training data.
 

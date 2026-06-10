@@ -1,4 +1,4 @@
-# 24. AI Is a Tool
+# 23. AI Is a Tool
 
 No new prompt for this one. The lesson is the recap itself, and a single question to sit with on the way out: which technique from this course are you most likely to use this week?
 
