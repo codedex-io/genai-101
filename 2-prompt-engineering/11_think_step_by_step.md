@@ -31,7 +31,7 @@ Then write the answer in the same format as the examples.
 Explain decorators.
 ```
 
-Then try `generators`. For a comparison run, delete the `For the new concept, first think step by step about:` block and send the same concept again.
+Then try `generators`. For a comparison run, delete the `For the new concept, first think step by step about:` and the three bullet points block and send the same concept again.
 
 ## Why it helps
 
